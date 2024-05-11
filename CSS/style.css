@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+h1{text-shadow: 3px 3px 3px black;
+font-family: "Inter", sans-serif;
+text-align: center;
+font-size: 55px;
+font-weight: 600;}
+
+body{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYipyRHbb6q1WNtgavuQjngsvFMAApiP-dsg&s);
+background-size: cover;
+background-repeat: no-repeat;
+font-family: "Inter", sans-serif;
+color:black;}
+
+main{padding: 30px;}
+
+h2{
+text-align: center;
+font-size: 45px;
+font-family: "Inter", sans-serif;
+
+}
+
+h2::after{content: url(https://i.postimg.cc/MKsgYjGr/free-icon-croissant-712277.png);}
+
+p{text-align: center;
+color: white;
+font-weight: 500;}
+.coffee{
+    display: flex;
+    justify-content: space-between;
+}
+.coffee img{
+    width:274px;
+    height:184px;
+}
+ 
+header {
+    display: flex;
+    align-items: center; /* выравниваем элементы по вертикали */
+  
+}
+
+nav {
+   display: flex;
+   justify-content: space-evenly;
+   width: 800px;
+   margin: 0 auto;
+}
+
+nav a {
+   
+ margin-left: 50px;
+text-decoration: none;
+color: white;
+font-weight: 900;
+font-size: 18px;
+}
+footer{padding: 60px;
+    background-color: rgb(139, 95, 0);
+    color: #fff;
+    opacity: 50%;
+
+}
+
+
+body{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+/* Стили для контейнера списка */
+.scrollable-list {
+    width: 300px;
+    height: 80px; 
+    overflow-y: auto; 
+    padding: 0;
+    margin-top: -70px;
+    margin-left: 1000px;
+}
+
+/* Стили для списка */
+.scrollable-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Стили для пунктов списка */
+.scrollable-list li {
+    padding: 5px 0;
+}
+
+/* Стили для полосы прокрутки */
+.scrollable-list::-webkit-scrollbar {
+    width: 3px;
+}
+
+.scrollable-list::-webkit-scrollbar-track {
+    background: #fff;}
+
+.lococi{
+    background-color: #cbb99a;
+    width: 300px;
+    height: 370px;
+    margin: 10px;
+    text-align: center;
+}
+
+.lococ{
+    width: 250px;
+    height: 170px;
+    margin-top: 23px;
+
+}
+
+.loco{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.kyriga{
+    background-color: #cbb99a;
+    width: 300px;
+    height: 370px;
+    margin: 10px;
+    text-align: center;
+}
+
+.kyrig{
+    width: 250px;
+    height: 170px;
+    margin-top: 23px;
+
+}
+
+.kyri{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.vegan{
+    background-color: #cbb99a;
+    width: 300px;
+    height: 370px;
+    margin: 10px;
+    text-align: center;
+}
+
+.vega{
+    width: 250px;
+    height: 170px;
+    margin-top: 23px;
+
+}
+
+.veg{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.calami{
+    background-color:#cbb99a;
+    width: 300px;
+    height: 370px;
+    margin: 10px;
+    text-align: center;
+}
+
+.calam{
+    width: 250px;
+    height: 170px;
+    margin-top: 23px;
+
+}
+
+.cala{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.coffe {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.latte{
+    background-color: #cbb99a;
+    width: 300px;
+    height: 370px;
+    margin: 10px;
+    text-align: center;
+}
+
+.latt{
+    width: 250px;
+    height: 170px;
+    margin-top: 23px;
+    margin-left: 25px;
+
+}
+
+.la{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.flet{
+    background-color: #cbb99a;
+    width: 300px;
+    height: 370px;
+    margin: 10px;
+    text-align: center;
+}
+
+.fle{
+    width: 250px;
+    height: 170px;
+    margin-top: 23px;
+    margin-left: 25px;
+
+}
+
+.fl{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.americano{
+    background-color: #cbb99a;
+    width: 300px;
+    height: 370px;
+    margin: 10px;
+    text-align: center;
+}
+
+.americon{
+    width: 250px;
+    height: 170px;
+    margin-top: 23px;
+    margin-left: 25px;
+
+}
+
+.americo{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.raf{
+    background-color:#cbb99a
+    ;
+    width: 300px;
+    height: 370px;
+    margin: 10px;
+    text-align: center;
+}
+
+.ra{
+    width: 250px;
+    height: 170px;
+    margin-top: 23px;
+    margin-left: 25px;
+
+}
+
+.r{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.coffe{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.croissants{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.brayni{
+    background-color:#cbb99a
+    ;
+    width: 300px;
+    height: 370px;
+    margin: 10px;
+    text-align: center;
+}
+
+.brayn{
+    width: 250px;
+    height: 170px;
+    margin-top: 23px;
+    margin-left: 25px;
+
+}
+
+.bray{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.makorony{
+    background-color:#cbb99a
+    ;
+    width: 300px;
+    height: 370px;
+    margin: 10px;
+    text-align: center;
+}
+
+.makoron{
+    width: 250px;
+    height: 170px;
+    margin-top: 23px;
+    margin-left: 25px;
+
+}
+
+.makoro{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.zefir{
+    background-color:#cbb99a
+    ;
+    width: 300px;
+    height: 370px;
+    margin: 10px;
+    text-align: center;
+}
+
+.zefi{
+    width: 250px;
+    height: 170px;
+    margin-top: 23px;
+    margin-left: 25px;
+
+}
+
+.zef{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.eklery{
+    background-color:#cbb99a
+    ;
+    width: 300px;
+    height: 370px;
+    margin: 10px;
+    text-align: center;
+}
+
+.ekler{
+    width: 250px;
+    height: 170px;
+    margin-top: 23px;
+    margin-left: 25px;
+
+}
+
+.ekle{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.deserty{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+button{
+background-color:black;
+color:white;
+padding:10px;
+text-align: center;
+
+}
+
+h2:hover{
+transform:translateX(-450px);
+transition:1s linear;
+}
+
+
+
+.modal{display: none;}
+
+/* Стилі для модального вікна */
+.modal {
+  
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); /* прозорість тла */
+}
+
+.modal-content {
+  border-radius: 10px;
+  background-color: #cbb99a;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Стилі для зображень товарів у кошику */
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-item-image {
+  width: 50px; /* розмір зменшеної картинки */
+  height: 50px;
+  margin-right: 10px;
+}
+
+.cart-item-text {
+  flex: 1;
+}
+
+
+
+
+#totalPrice{background-color: black;
+color: #fff;
+padding: 10px;
+width: 200px;}
+
+
+.delete-item {
+ margin-left: 50px;
+}
+
+
+.quantity-controls{
+display: flex;
+align-items: center;
+justify-content: space-between;}
+
+
+
+/*Загальна кількість товару у кошику:*/
+
+.korz {
+ color: rgb(16, 15, 15);
+}
+/*Опис товару:*/
+
+.cart-item-description p {
+
+  width: 250px;
+  font-weight: 600;
+  
+}
+
+
+
+.stul{
+display: flex;
+align-items: center;
+justify-content: space-between;}
+
+
+.img_footer{margin-top: 100px;}
+
+.add-to-cart{width: 100px;}
+.img_1{margin-left: 20px;}
+.img_2{margin-left: 20px;}
+.img_3{margin-left: 20px;}
